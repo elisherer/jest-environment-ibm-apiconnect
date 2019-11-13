@@ -1,6 +1,6 @@
 {
   "name": "jest-environment-ibm-apiconnect",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Runtime Environment for IBM API Connect gatewayscript tests in jest",
   "main": "src/index.js",
   "author": "Eli Sherer <eli.sherer@gmail.com>",
@@ -28,6 +28,7 @@
     "jest": ">=24.0.0"
   },
   "dependencies": {
-    "jest-environment-jsdom": "^24.0.0"
+    "jest-environment-jsdom": "^24.0.0",
+    "jsonwebtoken": "^8.5.1"
   }
 }
