@@ -1,0 +1,33 @@
+{
+  "name": "jest-environment-ibm-apiconnect",
+  "version": "1.0.0",
+  "description": "Runtime Environment for IBM API Connect gatewayscript tests in jest",
+  "main": "src/index.js",
+  "author": "Eli Sherer <eli.sherer@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/elisherer/jest-environment-ibm-apiconnect#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elisherer/jest-environment-ibm-apiconnect.git"
+  },
+  "keywords": [
+    "javascript",
+    "gatewayscript",
+    "test",
+    "apiconnect",
+    "datapower",
+    "jest"
+  ],
+  "bugs": {
+    "url": "https://github.com/elisherer/jest-environment-ibm-apiconnect/issues"
+  },
+  "peerDependencies": {
+    "jest": ">=24.0.0"
+  },
+  "dependencies": {
+    "jest-environment-jsdom": "^24.0.0"
+  }
+}
